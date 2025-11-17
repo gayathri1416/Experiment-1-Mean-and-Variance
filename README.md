@@ -21,17 +21,31 @@ It is calculated as:
 # Algorithm: Mean, Variance, and Standard Deviation of Feeder Arrivals
 
 1. Start the program.
-2. Input the arrival data (list of integers separated by spaces). Example: 0 1 1 2 2 3 3 3. 
-3. Find: N = total number of data values, M = maximum value in the data list. 
+   
+2. Input the arrival data (list of integers separated by spaces). Example: 0 1 1 2 2 3 3 3.
+   
+3. Find: N = total number of data values, M = maximum value in the data list.
+   
 4. Initialize two empty lists: x (for distinct arrival values) and f (for frequency of each arrival value).
-5. For each value i from 0 to M: count how many times i occurs in the data list, append i to x and its count to f.  
-6. Find total frequency: sf = sum(f).
-7. Find probability for each arrival value: p[i] = f[i] / sf.  
-8. Calculate mean (expected value): mean = Σ(x[i] * p[i]).   
-9. Calculate E(X²) (the second moment): EX2 = Σ(x[i]² * p[i]).   
+ 
+5. For each value i from 0 to M: count how many times i occurs in the data list, append i to x and its count to f.
+   
+6.Find total frequency: sf = sum(f).
+
+7. Find probability for each arrival value: p[i] = f[i] / sf.
+   
+8. Calculate mean (expected value): mean = Σ(x[i] * p[i]).
+   
+9. Calculate E(X²) (the second moment): EX2 = Σ(x[i]² * p[i]).
+    
 10. Calculate variance: var = EX2 - (mean)².
+
 11. Calculate standard deviation: SD = √var.
+
 12. Display the Mean, Variance, and Standard Deviation of arrivals.
+
+13. Stop.
+
 
 # Program: 
 ```
