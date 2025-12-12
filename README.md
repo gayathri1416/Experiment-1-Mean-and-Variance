@@ -77,7 +77,6 @@ print(f"The Mean arrival rate is {mean:.3f}")
 print(f"The Variance of arrival from feeder is {var:.3f}")
 print(f"The Standard deviation of arrival from feeder is {SD:.3f}")
 ```
-
 COLAB LINK: https://colab.research.google.com/drive/1f9bpSzDFL4sdQvxC8B110t7HI8lECT4i?usp=sharing
 # Output:
 
