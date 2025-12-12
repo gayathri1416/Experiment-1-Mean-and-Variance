@@ -79,10 +79,12 @@ print(f"The Standard deviation of arrival from feeder is {SD:.3f}")
 ```
 COLAB LINK: https://colab.research.google.com/drive/1f9bpSzDFL4sdQvxC8B110t7HI8lECT4i?usp=sharing
 # Output:
+```
 Enter arrival data:  6 6 6 6 6 8 7 9 
 The Mean arrival rate is 6.750
 The Variance of arrival from feeder is 1.188
 The Standard deviation of arrival from feeder is 1.090
+```
 # Result: 
 	The mean and variance of arrivals of objects from feeder using probability distribution are calculated. 
 
