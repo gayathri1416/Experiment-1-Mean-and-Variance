@@ -88,7 +88,6 @@ The Mean arrival rate is 6.750
 The Variance of arrival from feeder is 1.188
 
 The Standard deviation of arrival from feeder is 1.090
-
 # Result: 
 	The mean and variance of arrivals of objects from feeder using probability distribution are calculated. 
 
